@@ -1,0 +1,97 @@
+/* Container for the signup form */
+.signup{
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.signup-conatiner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  /* Styling for the form */
+  .signup-conatiner form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Heading style */
+  .signup-conatiner h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form group style */
+  .signup-conatiner .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Label style */
+  .signup-conatiner .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  /* Input field style */
+  .signup-conatiner .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ccc;
+  }
+  
+  /* Signup button style */
+  .signup-conatiner .button.sign {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-conatiner button.sign:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error message style */
+  .signup-conatiner .error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Link style */
+  .signup-conatiner p {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .signup-conatiner p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-conatiner p a:hover {
+    text-decoration: underline;
+  }
+  

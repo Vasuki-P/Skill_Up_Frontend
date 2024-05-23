@@ -1,0 +1,266 @@
+.homecontent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; /* Aligns the content to the right */
+  text-align: right; /* Aligns the text to the right */
+  padding: 20px;
+  color: white;
+  margin-right: 20px; /* Optional: adds a bit of space on the right */
+  margin-top: 50px;
+}
+
+.homecontent h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.homecontent h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.homecontent p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: rgb(172, 172, 172);
+}
+  /* Style for the navigation bar */
+  .homepage-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .homepage {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  }
+  
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #012550;
+  color: white;
+  padding: 10px 20px;
+  z-index: 1000; /* Ensure the navbar stays above other elements */
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-links li a:hover {
+  text-decoration: none;
+  background-color: #ff4081;
+  cursor: pointer;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+  /* companies */
+  .companies-container h1{
+    text-align: center;
+    font-size: 40px;
+  }
+  .companies {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-color: #f1f7ff84;
+  }
+  
+  .company {
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #f3f6f9;
+    margin-left: 10px;
+  }
+  .company:hover {
+    transform: translateY(-5px);
+  }
+  .company p {
+    font-size: 14px;
+    color: #666;
+  }
+  .company button{
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #0056b3;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* about us */
+  /* Reset default margin and padding */
+.about{
+  background-color: #dadbdb;
+}
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about-us img{
+  height: 50%;
+  width: 30%;
+}
+.about-us h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* contact us */
+.contactuspage{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact h1{
+  font-size: 30px;
+  text-align: center;
+}
+.contact-info {
+  flex: 1;
+  margin-right: 20px;
+}
+.contact-form {
+  flex: 1;
+  margin-right: 20px;
+  background-color: #dadbdb;
+  border-radius: 10px;
+  border: black solid 1px;
+}
+
+.contact-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #080327;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.contact-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #535151;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-left: 23%;
+  width: 50%;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 23%;
+  width: 55%;
+}
+
+.contact-form button:hover {
+  background-color: #ff1d68;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #000000;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+

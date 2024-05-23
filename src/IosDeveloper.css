@@ -1,0 +1,54 @@
+.ios-developer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    min-height: 100vh;
+  }
+  .ios-developer-container img{
+    width: 90%;
+  }
+  .ios-developer-container h1 {
+    color: #007aff;
+    margin-bottom: 20px;
+  }
+  
+  .ios-developer-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 950px;
+  }
+  
+  .ios-developer-content h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .ios-developer-content p {
+    color: #6b6b6b;
+    margin-bottom: 20px;
+  }
+  
+  .ios-developer-content h3 {
+    color: #007aff;
+    margin-bottom: 10px;
+  }
+  
+  .ios-developer-content ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .ios-developer-content ul li {
+    background-color: #e6f7ff;
+    color: #007aff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
