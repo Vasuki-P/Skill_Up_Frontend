@@ -251,16 +251,13 @@
 .contact-form button:hover {
   background-color: #ff1d68;
 }
-
 /* Footer styles */
 footer {
   text-align: center;
   padding: 20px 0;
   background-color: #000000;
 }
-
 footer p {
   font-size: 0.9rem;
   color: #ffffff;
 }
-
